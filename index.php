@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Главная страница</h1>
+<h1>Главная станица</h1>
 </body>
 </html>
