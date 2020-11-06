@@ -14,7 +14,7 @@ class WorkerController extends Controller
      */
     public function index()
     {
-        //
+        dd('WorkerController/index');
     }
 
     /**
@@ -24,7 +24,8 @@ class WorkerController extends Controller
      */
     public function create()
     {
-        //
+        echo 'WorkerController/create';
+
     }
 
     /**
@@ -35,7 +36,7 @@ class WorkerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd('WorkerController/store');
     }
 
     /**
@@ -46,7 +47,7 @@ class WorkerController extends Controller
      */
     public function show(Worker $worker)
     {
-        //
+        dd('WorkerController/show');
     }
 
     /**
@@ -57,7 +58,7 @@ class WorkerController extends Controller
      */
     public function edit(Worker $worker)
     {
-        //
+        dd('WorkerController/edit');
     }
 
     /**
@@ -69,7 +70,7 @@ class WorkerController extends Controller
      */
     public function update(Request $request, Worker $worker)
     {
-        //
+        dd('WorkerController/update');
     }
 
     /**
@@ -80,6 +81,6 @@ class WorkerController extends Controller
      */
     public function destroy(Worker $worker)
     {
-        //
+        dd('WorkerController/destroy');
     }
 }

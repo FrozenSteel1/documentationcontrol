@@ -19,12 +19,9 @@ class CreateDocumentsTable extends Migration
             $table->string('doc_name',100)->unique();
             $table->string('doc_area',50)->nullable();
             $table->integer('doc_version')->default(0);
-            $table->bigInteger('doc_responsible_id')->default(0);
-            $table->foreign('doc_responsible_id')->references('id')->on('workers');
-            $table->bigInteger('doc_worker_id')->default(0);
-            $table->foreign('doc_worker_id')->references('id')->on('workers');
-            $table->bigInteger('doc_signer_id')->default(0);
-            $table->foreign('doc_signer_id')->references('id')->on('workers');
+            $table->integer('doc_responsible_id')->default(0);
+            $table->integer('doc_worker_id')->default(0);
+            $table->integer('doc_signer_id')->default(0);
             $table->json('doc_tags')->nullable();
             $table->date('doc_date_signing');
             $table->date('doc_date_expired')->nullable();

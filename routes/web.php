@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::resource('/worker','App\Http\Controllers\WorkerController');
+Route::resource('/document','App\Http\Controllers\DocumentController');
 Route::get('/', function () {
     return view('auth.login');
 });
