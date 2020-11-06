@@ -19,49 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Установлена авторизация главная страница перемещена на логин">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/main/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/action-message.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/action-section.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/application-logo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/application-mark.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/authentication-card-logo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/authentication-card.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/confirmation-modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/confirms-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/danger-button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/dialog-modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/dropdown-link.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/dropdown.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/form-section.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/input-error.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/input.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/label.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/nav-link.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/responsive-nav-link.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/secondary-button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/section-border.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/section-title.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/switchable-team.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/validation-errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/welcome.blade.php" afterDir="false" />
+    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Установлены авторизация и установлены стартовые страницы немного похимичено с тем куда попадает после отправки">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DocumentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/WorkerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Document.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Worker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_06_174625_create_documents_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_06_184108_create_workers_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -236,7 +209,8 @@
       <updated>1604519865571</updated>
       <workItem from="1604519866635" duration="1699000" />
       <workItem from="1604576780997" duration="1055000" />
-      <workItem from="1604583907431" duration="12579000" />
+      <workItem from="1604583907431" duration="12920000" />
+      <workItem from="1604683688785" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="1 коммит с пустым индексом">
       <created>1604520056315</created>
@@ -301,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604586147691</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Установлены авторизация и установлены стартовые страницы немного похимичено с тем куда попадает после отправки">
+      <created>1604609759649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604609759649</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,13 +310,18 @@
     <MESSAGE value="Установлен чистый ларавел 8.4" />
     <MESSAGE value="Установлен Ларавел плагин все сгенерировано кроме моделей" />
     <MESSAGE value="Установлена авторизация главная страница перемещена на логин" />
-    <option name="LAST_COMMIT_MESSAGE" value="Установлена авторизация главная страница перемещена на логин" />
+    <MESSAGE value="Установлены авторизация и установлены стартовые страницы немного похимичено с тем куда попадает после отправки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Установлены авторизация и установлены стартовые страницы немного похимичено с тем куда попадает после отправки" />
   </component>
   <component name="WindowStateProjectService">
     <state x="716" y="369" key="#Composer" timestamp="1604583925224">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
     <state x="716" y="369" key="#Composer/0.0.1810.978@0.0.1810.978" timestamp="1604583925224" />
+    <state x="667" y="291" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604683709298">
+      <screen x="0" y="0" width="1810" height="978" />
+    </state>
+    <state x="667" y="291" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1810.978@0.0.1810.978" timestamp="1604683709298" />
     <state x="752" y="387" key="Github.ShareDialog" timestamp="1604519903507">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
@@ -352,10 +338,10 @@
       <screen x="0" y="0" width="1810" height="978" />
     </state>
     <state x="407" y="134" key="SettingsEditor/0.0.1810.978@0.0.1810.978" timestamp="1604584713589" />
-    <state x="498" y="222" key="Vcs.Push.Dialog.v2" timestamp="1604586154625">
+    <state x="498" y="222" key="Vcs.Push.Dialog.v2" timestamp="1604609763013">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
-    <state x="498" y="222" key="Vcs.Push.Dialog.v2/0.0.1810.978@0.0.1810.978" timestamp="1604586154625" />
+    <state x="498" y="222" key="Vcs.Push.Dialog.v2/0.0.1810.978@0.0.1810.978" timestamp="1604609763013" />
     <state x="615" y="221" width="579" height="534" key="find.popup" timestamp="1604604197804">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
