@@ -16,16 +16,30 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Создал миграции но не применял">
+    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Создал пути начинаю мутить вид через тайлвинд">
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/WorkerTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/livewire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/livewire/livewire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/livewire/livewire.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/livewire/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/worker-table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/worker/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/documentationcontrol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/documentationcontrol.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WorkerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WorkerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Document.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Document.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Worker.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Worker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_06_174625_create_documents_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_06_174625_create_documents_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +56,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -173,6 +192,7 @@
       <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
       <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jq7erbhFqkNEdDZJthDC2cOyXN" />
@@ -188,9 +208,18 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\documentationcontrol\public\js\livewire" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\documentationcontrol\public\js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -209,7 +238,8 @@
       <workItem from="1604519866635" duration="1699000" />
       <workItem from="1604576780997" duration="1055000" />
       <workItem from="1604583907431" duration="12920000" />
-      <workItem from="1604683688785" duration="7710000" />
+      <workItem from="1604683688785" duration="10411000" />
+      <workItem from="1604730373317" duration="6438000" />
     </task>
     <task id="LOCAL-00001" summary="1 коммит с пустым индексом">
       <created>1604520056315</created>
@@ -288,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604688784545</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Создал пути начинаю мутить вид через тайлвинд">
+      <created>1604691912131</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604691912131</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +336,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -318,7 +367,8 @@
     <MESSAGE value="Установлена авторизация главная страница перемещена на логин" />
     <MESSAGE value="Установлены авторизация и установлены стартовые страницы немного похимичено с тем куда попадает после отправки" />
     <MESSAGE value="Создал миграции но не применял" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал миграции но не применял" />
+    <MESSAGE value="Создал пути начинаю мутить вид через тайлвинд" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал пути начинаю мутить вид через тайлвинд" />
   </component>
   <component name="WindowStateProjectService">
     <state x="716" y="369" key="#Composer" timestamp="1604583925224">
@@ -329,6 +379,10 @@
       <screen x="0" y="0" width="1810" height="978" />
     </state>
     <state x="667" y="291" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1810.978@0.0.1810.978" timestamp="1604683709298" />
+    <state x="636" y="244" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604748383710">
+      <screen x="0" y="0" width="1810" height="978" />
+    </state>
+    <state x="636" y="244" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1810.978@0.0.1810.978" timestamp="1604748383710" />
     <state x="752" y="387" key="Github.ShareDialog" timestamp="1604519903507">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
@@ -337,21 +391,21 @@
       <screen x="0" y="0" width="1810" height="978" />
     </state>
     <state x="753" y="186" key="Github.UntrackedFilesDialog/0.0.1810.978@0.0.1810.978" timestamp="1604519912216" />
-    <state x="740" y="413" key="NewPhpFileDialog" timestamp="1604586368553">
+    <state x="740" y="413" key="NewPhpFileDialog" timestamp="1604756356478">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
-    <state x="740" y="413" key="NewPhpFileDialog/0.0.1810.978@0.0.1810.978" timestamp="1604586368553" />
+    <state x="740" y="413" key="NewPhpFileDialog/0.0.1810.978@0.0.1810.978" timestamp="1604756356478" />
     <state x="407" y="134" key="SettingsEditor" timestamp="1604584713589">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
     <state x="407" y="134" key="SettingsEditor/0.0.1810.978@0.0.1810.978" timestamp="1604584713589" />
-    <state x="498" y="222" key="Vcs.Push.Dialog.v2" timestamp="1604688789296">
+    <state x="498" y="222" key="Vcs.Push.Dialog.v2" timestamp="1604691919564">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
-    <state x="498" y="222" key="Vcs.Push.Dialog.v2/0.0.1810.978@0.0.1810.978" timestamp="1604688789296" />
-    <state x="615" y="221" width="579" height="534" key="find.popup" timestamp="1604604197804">
+    <state x="498" y="222" key="Vcs.Push.Dialog.v2/0.0.1810.978@0.0.1810.978" timestamp="1604691919564" />
+    <state x="615" y="221" width="579" height="534" key="find.popup" timestamp="1604748969364">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
-    <state x="615" y="221" width="579" height="534" key="find.popup/0.0.1810.978@0.0.1810.978" timestamp="1604604197804" />
+    <state x="615" y="221" width="579" height="534" key="find.popup/0.0.1810.978@0.0.1810.978" timestamp="1604748969364" />
   </component>
 </project>
