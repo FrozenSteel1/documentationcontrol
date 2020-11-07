@@ -39,7 +39,7 @@
                             @error('worker_patronymic') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
-
+                </div>
                 <div class="col-sm-6">
                     <div class="form-group row">
                         {{ Form::label('name', 'worker_email :',['class' => 'col-md-4','align' => 'right'])}}
@@ -71,36 +71,36 @@
                     </div>
 
                 </div>
-                    <div class="col-sm-6">
-                        <div class="form-group row">
-                            {{ Form::label('name', 'worker_division :',['class' => 'col-md-4','align' => 'right'])}}
-                            <div class="col-md-6">
-                                {{ Form::text('worker_division', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_division']) }}
-                                @error('worker_division') <span class="error text-danger">{{ $message }}</span> @enderror
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            {{ Form::label('name', 'worker_subdivision :',['class' => 'col-md-4','align' => 'right'])}}
-                            <div class="col-md-6">
-                                {{ Form::text('worker_subdivision', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_subdivision']) }}
-                                @error('worker_subdivision') <span class="error text-danger">{{ $message }}</span> @enderror
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            {{ Form::label('name', 'worker_position :',['class' => 'col-md-4','align' => 'right'])}}
-                            <div class="col-md-6">
-                                {{ Form::text('worker_position', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_position']) }}
-                                @error('worker_position') <span class="error text-danger">{{ $message }}</span> @enderror
-                            </div>
+                <div class="col-sm-6">
+                    <div class="form-group row">
+                        {{ Form::label('name', 'worker_division :',['class' => 'col-md-4','align' => 'right'])}}
+                        <div class="col-md-6">
+                            {{ Form::text('worker_division', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_division']) }}
+                            @error('worker_division') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
-
+                    <div class="form-group row">
+                        {{ Form::label('name', 'worker_subdivision :',['class' => 'col-md-4','align' => 'right'])}}
+                        <div class="col-md-6">
+                            {{ Form::text('worker_subdivision', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_subdivision']) }}
+                            @error('worker_subdivision') <span class="error text-danger">{{ $message }}</span> @enderror
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        {{ Form::label('name', 'worker_position :',['class' => 'col-md-4','align' => 'right'])}}
+                        <div class="col-md-6">
+                            {{ Form::text('worker_position', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_position']) }}
+                            @error('worker_position') <span class="error text-danger">{{ $message }}</span> @enderror
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-12">
                     @if($route == 'index')
-                        <button type="submit" class="btn btn-success" style="display: block; margin: 0 auto">Save</button>
+                        <button type="submit" class="btn btn-success" style="display: block; margin: 0 auto">Save
+                        </button>
                     @elseif($route == 'edit')
                         <div class="text-center">
-                            <a href="#" class="btn btn-success"  wire:click="updatemodel()">Update</a>
+                            <a href="#" class="btn btn-success" wire:click="updatemodel()">Update</a>
                         </div>
                     @endif
                 </div>
@@ -113,7 +113,8 @@
         <br>
         <div class="card card-body">
             <div class="col-sm-12">
-                @error('delete') <div class="alert alert-danger"> <span class="error">{{ $message }}</span> </div> @enderror
+                @error('delete')
+                <div class="alert alert-danger"><span class="error">{{ $message }}</span></div> @enderror
                 <div class="">
                     <div class="row table-header-section">
                         <div class="col-sm-6">
@@ -123,7 +124,8 @@
                         </div>
                     </div>
                     <div class="table-responsive mt-2">
-                        <table class="table table-striped table-outer-border no-margin worker-list-table table-sm" id="worker-table" style="width:100%">
+                        <table class="table table-striped table-outer-border no-margin worker-list-table table-sm"
+                               id="worker-table" style="width:100%">
 
                             <thead>
                             <th class="td-text">#</th>
@@ -148,10 +150,10 @@
                                         <td class="td-text">
                                             {{$worker['worker_name'] ?? ''}}
                                         </td>
-                                        <td class="td-text" >
+                                        <td class="td-text">
                                             {{$worker['worker_surname']}}
                                         </td>
-                                        <td class="td-text" >
+                                        <td class="td-text">
                                             {{$worker['worker_patronymic']}}
                                         </td>
                                         <td class="td-text">
@@ -176,8 +178,10 @@
                                             {{$worker['worker_position']}}
                                         </td>
                                         <td class="text-right">
-                                            <a href="#" wire:click="edit({{$worker['id']}})" class="btn btn-warning btn-sm" >Edit</a>
-                                            <a href="#" wire:click="delete({{$worker['id']}})" class="btn btn-danger btn-sm" ><i class="fas fa-cog">Delete</i></a>
+                                            <a href="#" wire:click="edit({{$worker['id']}})"
+                                               class="btn btn-warning btn-sm">Edit</a>
+                                            <a href="#" wire:click="delete({{$worker['id']}})"
+                                               class="btn btn-danger btn-sm"><i class="fas fa-cog">Delete</i></a>
                                         </td>
                                     </tr>
                                 @endforeach
@@ -194,6 +198,5 @@
     @endif
 
 
+</div>
 
-</div>
-</div>

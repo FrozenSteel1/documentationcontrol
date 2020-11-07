@@ -25,21 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Создал пути начинаю мутить вид через тайлвинд">
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/WorkerTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/livewire.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/livewire/livewire.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/livewire/livewire.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/livewire/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/worker-table.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/worker/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/documentationcontrol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/documentationcontrol.iml" afterDir="false" />
+    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Почти спер круд осталась верстка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WorkerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WorkerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/worker-table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/worker-table.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604691912131</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Почти спер круд осталась верстка">
+      <created>1604761615473</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604761615473</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +363,8 @@
     <MESSAGE value="Установлены авторизация и установлены стартовые страницы немного похимичено с тем куда попадает после отправки" />
     <MESSAGE value="Создал миграции но не применял" />
     <MESSAGE value="Создал пути начинаю мутить вид через тайлвинд" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал пути начинаю мутить вид через тайлвинд" />
+    <MESSAGE value="Почти спер круд осталась верстка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Почти спер круд осталась верстка" />
   </component>
   <component name="WindowStateProjectService">
     <state x="716" y="369" key="#Composer" timestamp="1604583925224">
