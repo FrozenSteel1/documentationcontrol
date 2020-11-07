@@ -14,7 +14,7 @@ class WorkerController extends Controller
      */
     public function index()
     {
-        dd('WorkerController/index');
+        return view('worker.index');
     }
 
     /**
@@ -26,6 +26,7 @@ class WorkerController extends Controller
     {
         echo 'WorkerController/create';
 
+    return view('worker.create');
     }
 
     /**
