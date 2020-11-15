@@ -25,9 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Почти спер круд осталась верстка">
+    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Круд сделал">
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/DocumentTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/document/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/document-table.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/worker-table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/worker-table.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DocumentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DocumentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +232,7 @@
       <workItem from="1604583907431" duration="12920000" />
       <workItem from="1604683688785" duration="10411000" />
       <workItem from="1604730373317" duration="6438000" />
+      <workItem from="1604998829518" duration="898000" />
     </task>
     <task id="LOCAL-00001" summary="1 коммит с пустым индексом">
       <created>1604520056315</created>
@@ -320,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604761615473</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Круд сделал">
+      <created>1604763046526</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604763046526</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +376,8 @@
     <MESSAGE value="Создал миграции но не применял" />
     <MESSAGE value="Создал пути начинаю мутить вид через тайлвинд" />
     <MESSAGE value="Почти спер круд осталась верстка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Почти спер круд осталась верстка" />
+    <MESSAGE value="Круд сделал" />
+    <option name="LAST_COMMIT_MESSAGE" value="Круд сделал" />
   </component>
   <component name="WindowStateProjectService">
     <state x="716" y="369" key="#Composer" timestamp="1604583925224">
@@ -375,10 +388,10 @@
       <screen x="0" y="0" width="1810" height="978" />
     </state>
     <state x="667" y="291" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1810.978@0.0.1810.978" timestamp="1604683709298" />
-    <state x="636" y="244" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604748383710">
+    <state x="636" y="244" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604767024851">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
-    <state x="636" y="244" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1810.978@0.0.1810.978" timestamp="1604748383710" />
+    <state x="636" y="244" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1810.978@0.0.1810.978" timestamp="1604767024851" />
     <state x="752" y="387" key="Github.ShareDialog" timestamp="1604519903507">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
@@ -387,10 +400,10 @@
       <screen x="0" y="0" width="1810" height="978" />
     </state>
     <state x="753" y="186" key="Github.UntrackedFilesDialog/0.0.1810.978@0.0.1810.978" timestamp="1604519912216" />
-    <state x="740" y="413" key="NewPhpFileDialog" timestamp="1604756356478">
+    <state x="740" y="413" key="NewPhpFileDialog" timestamp="1604766859214">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
-    <state x="740" y="413" key="NewPhpFileDialog/0.0.1810.978@0.0.1810.978" timestamp="1604756356478" />
+    <state x="740" y="413" key="NewPhpFileDialog/0.0.1810.978@0.0.1810.978" timestamp="1604766859214" />
     <state x="407" y="134" key="SettingsEditor" timestamp="1604584713589">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
