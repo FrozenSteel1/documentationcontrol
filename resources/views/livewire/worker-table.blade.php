@@ -19,53 +19,53 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group row">
-                        {{ Form::label('name', 'worker_name : *',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Имя : *',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('worker_name', null,['class' => 'form-control','placeholder' => 'Enter Name','wire:model' => 'worker_name']) }}
+                            {{ Form::text('worker_name', null,['class' => 'form-control','placeholder' => 'Введите Имя','wire:model' => 'worker_name']) }}
                             @error('worker_name') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'worker_surname : *',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Фамилия : *',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('worker_surname', null,['class' => 'form-control','placeholder' => 'Enter Name','wire:model' => 'worker_surname']) }}
+                            {{ Form::text('worker_surname', null,['class' => 'form-control','placeholder' => 'Введите Фамилию','wire:model' => 'worker_surname']) }}
                             @error('worker_surname') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'worker_patronymic : *',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Отчество : *',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('worker_patronymic', null,['class' => 'form-control','placeholder' => 'Enter Name','wire:model' => 'worker_patronymic']) }}
+                            {{ Form::text('worker_patronymic', null,['class' => 'form-control','placeholder' => 'Введите Отчество','wire:model' => 'worker_patronymic']) }}
                             @error('worker_patronymic') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group row">
-                        {{ Form::label('name', 'worker_email :',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Email :',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('worker_email', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_email']) }}
+                            {{ Form::text('worker_email', '',['class' => 'form-control','placeholder' => 'Введите Email','wire:model' => 'worker_email']) }}
                             @error('worker_email') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'worker_email_spare :',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Резервный Email :',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('worker_email_spare', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_email_spare']) }}
+                            {{ Form::text('worker_email_spare', '',['class' => 'form-control','placeholder' => 'Введите резервный Email','wire:model' => 'worker_email_spare']) }}
                             @error('worker_email_spare') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'worker_tel :',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Номер телефона :',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('worker_tel', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_tel']) }}
+                            {{ Form::text('worker_tel', '',['class' => 'form-control','placeholder' => 'Введите номер телефона','wire:model' => 'worker_tel']) }}
                             @error('worker_tel') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'worker_tel_spare :',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Резервный телефон :',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('worker_tel_spare', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_tel_spare']) }}
+                            {{ Form::text('worker_tel_spare', '',['class' => 'form-control','placeholder' => 'Введите резервный телефон','wire:model' => 'worker_tel_spare']) }}
                             @error('worker_tel_spare') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
@@ -73,23 +73,23 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group row">
-                        {{ Form::label('name', 'worker_division :',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Организация :',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('worker_division', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_division']) }}
+                            {{ Form::text('worker_division', '',['class' => 'form-control','placeholder' => 'Введите название организации','wire:model' => 'worker_division']) }}
                             @error('worker_division') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'worker_subdivision :',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Подразделение :',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('worker_subdivision', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_subdivision']) }}
+                            {{ Form::text('worker_subdivision', '',['class' => 'form-control','placeholder' => 'Введите подразделение организации','wire:model' => 'worker_subdivision']) }}
                             @error('worker_subdivision') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'worker_position :',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Должность :',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('worker_position', '',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'worker_position']) }}
+                            {{ Form::text('worker_position', '',['class' => 'form-control','placeholder' => 'Введите должность','wire:model' => 'worker_position']) }}
                             @error('worker_position') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
@@ -118,7 +118,7 @@
                 <div class="">
                     <div class="row table-header-section">
                         <div class="col-sm-6">
-                            List Of Workers:
+                            Список работников:
                         </div>
                         <div class="col-sm-6 table-search">
                         </div>
@@ -129,17 +129,17 @@
 
                             <thead>
                             <th class="td-text">#</th>
-                            <th class="td-text">WorkerName</th>
-                            <th class="td-text">WorkerSurname</th>
-                            <th class="td-text">WorkerPatronymic</th>
-                            <th class="td-text">WorkerEmail</th>
-                            <th class="td-text">WorkerEmailSpare</th>
-                            <th class="td-text">WorkerTel</th>
-                            <th class="td-text">WorkerTelSpare</th>
-                            <th class="td-text">WorkerDivision</th>
-                            <th class="td-text">WorkerSubdivision</th>
-                            <th class="td-text">WorkerPosition</th>
-                            <th class="text-right">Actions</th>
+                            <th class="td-text">Имя</th>
+                            <th class="td-text">Фамилия</th>
+                            <th class="td-text">Отчество</th>
+                            <th class="td-text">Email</th>
+                            <th class="td-text">Резервный Email</th>
+                            <th class="td-text">Телефон</th>
+                            <th class="td-text">Резервный телефон</th>
+                            <th class="td-text">Организация</th>
+                            <th class="td-text">Подразделение</th>
+                            <th class="td-text">Должность</th>
+                            <th class="text-right">Действия</th>
                             </thead>
                             @if(count($workers) > 0)
                                 @foreach($workers as $index => $worker)

@@ -25,13 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Круд сделал">
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/DocumentTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/document/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/document-table.blade.php" afterDir="false" />
+    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Приступаю к руссификации">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DocumentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DocumentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/document-table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/document-table.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/worker-table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/worker-table.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,6 +230,7 @@
       <workItem from="1604683688785" duration="10411000" />
       <workItem from="1604730373317" duration="6438000" />
       <workItem from="1604998829518" duration="898000" />
+      <workItem from="1605436464066" duration="876000" />
     </task>
     <task id="LOCAL-00001" summary="1 коммит с пустым индексом">
       <created>1604520056315</created>
@@ -332,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604763046526</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Приступаю к руссификации">
+      <created>1605436564311</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605436564311</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +382,8 @@
     <MESSAGE value="Создал пути начинаю мутить вид через тайлвинд" />
     <MESSAGE value="Почти спер круд осталась верстка" />
     <MESSAGE value="Круд сделал" />
-    <option name="LAST_COMMIT_MESSAGE" value="Круд сделал" />
+    <MESSAGE value="Приступаю к руссификации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Приступаю к руссификации" />
   </component>
   <component name="WindowStateProjectService">
     <state x="716" y="369" key="#Composer" timestamp="1604583925224">

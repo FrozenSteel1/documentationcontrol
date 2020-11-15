@@ -19,53 +19,53 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group row">
-                        {{ Form::label('name', 'doc_name : *',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Название : *',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('doc_name', null,['class' => 'form-control','placeholder' => 'Enter Name','wire:model' => 'doc_name']) }}
+                            {{ Form::text('doc_name', null,['class' => 'form-control','placeholder' => 'Введите Название документа','wire:model' => 'doc_name']) }}
                             @error('doc_name') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'doc_number : *',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Номер : *',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('doc_number', null,['class' => 'form-control','placeholder' => 'Enter Name','wire:model' => 'doc_number']) }}
+                            {{ Form::text('doc_number', null,['class' => 'form-control','placeholder' => 'Введите номер документа','wire:model' => 'doc_number']) }}
                             @error('doc_number') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'doc_tags : *',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Тэги : *',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::textarea('doc_tags', null,['class' => 'form-control','placeholder' => 'Enter Name','wire:model' => 'doc_tags']) }}
+                            {{ Form::textarea('doc_tags', null,['class' => 'form-control','placeholder' => 'Введите тэги для документа','wire:model' => 'doc_tags']) }}
                             @error('doc_tags') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'doc_area : *',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Область действия : *',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::text('doc_area', null,['class' => 'form-control','placeholder' => 'Enter Name','wire:model' => 'doc_area']) }}
+                            {{ Form::text('doc_area', null,['class' => 'form-control','placeholder' => 'Введите область действия','wire:model' => 'doc_area']) }}
                             @error('doc_area') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group row">
-                        {{ Form::label('name', 'doc_worker_id : *',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Номер работника : *',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::number('doc_worker_id', null,['class' => 'form-control','placeholder' => 'Enter Name','wire:model' => 'doc_worker_id']) }}
+                            {{ Form::number('doc_worker_id', null,['class' => 'form-control','placeholder' => 'Введите номер работника','wire:model' => 'doc_worker_id']) }}
                             @error('doc_worker_id') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'doc_responsible_id : *',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Номер ответственного : *',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::number('doc_responsible_id', null,['class' => 'form-control','placeholder' => 'Enter Name','wire:model' => 'doc_responsible_id']) }}
+                            {{ Form::number('doc_responsible_id', null,['class' => 'form-control','placeholder' => 'Введите номер ответственного','wire:model' => 'doc_responsible_id']) }}
                             @error('doc_responsible_id') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'doc_signer_id : *',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Номер подписчика : *',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::number('doc_signer_id', null,['class' => 'form-control','placeholder' => 'Enter Name','wire:model' => 'doc_signer_id']) }}
+                            {{ Form::number('doc_signer_id', null,['class' => 'form-control','placeholder' => 'Введите номер подписчика','wire:model' => 'doc_signer_id']) }}
                             @error('doc_signer_id') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
@@ -73,23 +73,23 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group row">
-                        {{ Form::label('name', 'doc_date_signing :',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Дата подписания :',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::date('doc_date_signing', null,['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'doc_date_signing']) }}
+                            {{ Form::date('doc_date_signing', null,['class' => 'form-control','placeholder' => 'Укажите Дату подписания','wire:model' => 'doc_date_signing']) }}
                             @error('doc_date_signing') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'doc_date_expired :',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Дата окончания :',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::date('doc_date_expired', null,['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'doc_date_expired']) }}
+                            {{ Form::date('doc_date_expired', null,['class' => 'form-control','placeholder' => 'Укажите дату окончания действия','wire:model' => 'doc_date_expired']) }}
                             @error('doc_date_expired') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
                     <div class="form-group row">
-                        {{ Form::label('name', 'doc_data :',['class' => 'col-md-4','align' => 'right'])}}
+                        {{ Form::label('name', 'Данные :',['class' => 'col-md-4','align' => 'right'])}}
                         <div class="col-md-6">
-                            {{ Form::file('doc_data',['class' => 'form-control','placeholder' => 'Enter Mobile No','wire:model' => 'doc_data']) }}
+                            {{ Form::file('doc_data',['class' => 'form-control','placeholder' => 'Выберите файлы документа','wire:model' => 'doc_data']) }}
                             @error('doc_data') <span class="error text-danger">{{ $message }}</span> @enderror
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                 <div class="">
                     <div class="row table-header-section">
                         <div class="col-sm-6">
-                            List Of Documents:
+                            Список документов:
                         </div>
                         <div class="col-sm-6 table-search">
                         </div>
@@ -130,17 +130,17 @@
 
                             <thead>
                             <th class="td-text">#</th>
-                            <th class="td-text">DocName</th>
-                            <th class="td-text">DocNumber</th>
-                            <th class="td-text">DocArea</th>
-                            <th class="td-text">DocTags</th>
-                            <th class="td-text">DocWorker</th>
-                            <th class="td-text">DocRespon</th>
-                            <th class="td-text">DocSigner</th>
-                            <th class="td-text">DocDateSign</th>
-                            <th class="td-text">DocDateExpr</th>
-                            <th class="td-text">DocData</th>
-                            <th class="text-right">Actions</th>
+                            <th class="td-text">Название</th>
+                            <th class="td-text">Номер</th>
+                            <th class="td-text">Область действия</th>
+                            <th class="td-text">Тэги</th>
+                            <th class="td-text">Работник</th>
+                            <th class="td-text">Ответственный</th>
+                            <th class="td-text">Подписант</th>
+                            <th class="td-text">Дата подписания</th>
+                            <th class="td-text">Дата окончания</th>
+                            <th class="td-text">Данные</th>
+                            <th class="text-right">Действия</th>
                             </thead>
                             @if(count($documents) > 0)
                                 @foreach($documents as $index => $document)
