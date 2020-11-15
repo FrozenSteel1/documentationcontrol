@@ -15,6 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 Route::resource('/worker','App\Http\Controllers\WorkerController');
 Route::resource('/document','App\Http\Controllers\DocumentController');
+Route::get('/table', function () {
+    return view('index');
+});
+Route::get('/table1', function () {
+    return view('index1');
+});
 Route::get('/', function () {
     return view('auth.login');
 });

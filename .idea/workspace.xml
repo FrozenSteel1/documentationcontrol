@@ -25,10 +25,32 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Приступаю к руссификации">
+    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Перевел приступаю к странице поиска и представления">
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/TableSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/laravel-livewire-tables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravel-livewire-tables/ar/strings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravel-livewire-tables/en/strings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index1.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/table-search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/columns.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/data.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/empty.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/export.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/loading.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/offline.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/options.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/pagination.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/tfoot.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/thead.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/table-component.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/documentationcontrol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/documentationcontrol.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/document-table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/document-table.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/worker-table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/worker-table.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Document.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Document.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Worker.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Worker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +70,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Crude" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -182,6 +204,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/rappasoft/laravel-livewire-tables" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jq7erbhFqkNEdDZJthDC2cOyXN" />
@@ -203,11 +226,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\documentationcontrol\public\js\livewire" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\documentationcontrol\public\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\documentationcontrol\public\js\livewire" />
     </key>
   </component>
   <component name="RunManager">
@@ -230,7 +253,7 @@
       <workItem from="1604683688785" duration="10411000" />
       <workItem from="1604730373317" duration="6438000" />
       <workItem from="1604998829518" duration="898000" />
-      <workItem from="1605436464066" duration="876000" />
+      <workItem from="1605436464066" duration="6446000" />
     </task>
     <task id="LOCAL-00001" summary="1 коммит с пустым индексом">
       <created>1604520056315</created>
@@ -337,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605436564311</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Перевел приступаю к странице поиска и представления">
+      <created>1605437427864</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605437427864</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +413,8 @@
     <MESSAGE value="Почти спер круд осталась верстка" />
     <MESSAGE value="Круд сделал" />
     <MESSAGE value="Приступаю к руссификации" />
-    <option name="LAST_COMMIT_MESSAGE" value="Приступаю к руссификации" />
+    <MESSAGE value="Перевел приступаю к странице поиска и представления" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перевел приступаю к странице поиска и представления" />
   </component>
   <component name="WindowStateProjectService">
     <state x="716" y="369" key="#Composer" timestamp="1604583925224">
@@ -394,10 +425,10 @@
       <screen x="0" y="0" width="1810" height="978" />
     </state>
     <state x="667" y="291" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1810.978@0.0.1810.978" timestamp="1604683709298" />
-    <state x="636" y="244" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604767024851">
+    <state x="636" y="244" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605448546643">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
-    <state x="636" y="244" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1810.978@0.0.1810.978" timestamp="1604767024851" />
+    <state x="636" y="244" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1810.978@0.0.1810.978" timestamp="1605448546643" />
     <state x="752" y="387" key="Github.ShareDialog" timestamp="1604519903507">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
@@ -406,10 +437,10 @@
       <screen x="0" y="0" width="1810" height="978" />
     </state>
     <state x="753" y="186" key="Github.UntrackedFilesDialog/0.0.1810.978@0.0.1810.978" timestamp="1604519912216" />
-    <state x="740" y="413" key="NewPhpFileDialog" timestamp="1604766859214">
+    <state x="740" y="413" key="NewPhpFileDialog" timestamp="1605448406421">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
-    <state x="740" y="413" key="NewPhpFileDialog/0.0.1810.978@0.0.1810.978" timestamp="1604766859214" />
+    <state x="740" y="413" key="NewPhpFileDialog/0.0.1810.978@0.0.1810.978" timestamp="1605448406421" />
     <state x="407" y="134" key="SettingsEditor" timestamp="1604584713589">
       <screen x="0" y="0" width="1810" height="978" />
     </state>
