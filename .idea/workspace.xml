@@ -25,32 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Перевел приступаю к странице поиска и представления">
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/TableSearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/laravel-livewire-tables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravel-livewire-tables/ar/strings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravel-livewire-tables/en/strings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index1.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/table-search.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/columns.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/data.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/empty.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/export.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/loading.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/offline.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/options.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/pagination.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/tfoot.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/includes/thead.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravel-livewire-tables/bootstrap-4/table-component.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/documentationcontrol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/documentationcontrol.iml" afterDir="false" />
+    <list default="true" id="9cfd4694-cb57-4f1e-810b-d91ed4246b7a" name="Default Changelist" comment="Страницы представления готовы впринципе">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Document.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Document.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Worker.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Worker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +229,7 @@
       <workItem from="1604683688785" duration="10411000" />
       <workItem from="1604730373317" duration="6438000" />
       <workItem from="1604998829518" duration="898000" />
-      <workItem from="1605436464066" duration="6446000" />
+      <workItem from="1605436464066" duration="6954000" />
     </task>
     <task id="LOCAL-00001" summary="1 коммит с пустым индексом">
       <created>1604520056315</created>
@@ -367,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605437427864</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Страницы представления готовы впринципе">
+      <created>1605448986829</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605448986829</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +397,8 @@
     <MESSAGE value="Круд сделал" />
     <MESSAGE value="Приступаю к руссификации" />
     <MESSAGE value="Перевел приступаю к странице поиска и представления" />
-    <option name="LAST_COMMIT_MESSAGE" value="Перевел приступаю к странице поиска и представления" />
+    <MESSAGE value="Страницы представления готовы впринципе" />
+    <option name="LAST_COMMIT_MESSAGE" value="Страницы представления готовы впринципе" />
   </component>
   <component name="WindowStateProjectService">
     <state x="716" y="369" key="#Composer" timestamp="1604583925224">
